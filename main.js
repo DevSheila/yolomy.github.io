@@ -84,7 +84,26 @@ Array.prototype.forEach.call(allCheckboxes, function (el) {
     });
   }
 
+  var productsBtn = document.querySelector('#categories-btn');
   
+  productsBtn.addEventListener("click" ,function(){
+  
+    allProducts.map(function (el) {
+     
+        el.style.display = 'block';
+
+    // Check
+    allCheckboxes.checked = false;
+
+for(var i=0;i<allCheckboxes.length;i++){
+  console.log(allCheckboxes.checked);
+
+}
+
+
+    });
+  })   
+
     
 
  

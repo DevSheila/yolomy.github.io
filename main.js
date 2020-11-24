@@ -26,13 +26,13 @@
 })(jQuery); // End of use strict
 
 
-// $('input').click(function() {
-//     var category = $(this).val();
+$('input').click(function() {
+    var category = $(this).val();
 
-//     if (!$(this).attr('checked')) $('.' + category).hide();
-//     else $('.' + category).show();
+    if (!$(this).attr('checked')) $('.' + category).hide();
+    else $('.' + category).show();
 
-// });
+});
 
 
     

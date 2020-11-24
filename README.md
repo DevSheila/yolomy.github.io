@@ -19,7 +19,7 @@ It shows what products Yolomy(the company) can offer from their stores.
 * [Licence](#Licence)
 
 ## Demo
-Here is a working live demo :  https://devsheila.github.io/DevSheila2.github.io/
+Here is a working live demo :  https://devsheila.github.io/yolomy.github.io/
 
 
 ## Features
